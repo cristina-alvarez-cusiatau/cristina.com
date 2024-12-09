@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aqua;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    background: lightgoldenrodyellow;
+    text-decoration: none;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    text-align: left;
+    border-radius: 5px 5px 5px 5px;
+    color: maroon;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.hero {
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    margin: 0;
+}
+
+.hero button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.about h1{
+    text-align: center;
+}
+
+
+
+
+
+.aboutcontenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.abouttexto{
+    text-align: justify;
+    max-width: 50%;
+
+
+}
+.abouttexto h1{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.abouttexto h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.aboutimagen{
+    max-width: 50%;
+    height: auto;
+    text-align: left;
+}
+
+
+.statistics {
+    text-align: center;
+    padding: 40px 20px;
+
+    background-color: rgb(9, 9, 12);
+}
+
+.statistics h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white;
+}
+.statistics h1{
+    color: white;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.stat {
+    text-align: center;
+    color: white;
+}
+
+.stat h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .app-download button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+.app-download a{
+    background:white;
+    color: rgb(7, 7, 7);
+    margin: 5px 5px 5px 5px;
+    padding:  5px 5px 5px 5px;
+    cursor: pointer;
+    transition: all 2s;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem  white;
+    text-decoration: none;
+
+}
+.app-download h3{
+    color:white;
+}
+.footer-bottom{
+    color:white;
+}
+.social-icons a{
+    background:white;
+    color: rgb(7, 7, 7);
+    margin: 5px 5px 5px 5px;
+    padding:  5px 5px 5px 5px;
+    cursor: pointer;
+    transition: all 2s;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem  white;
+    text-decoration: none;
+}   
+
+
+

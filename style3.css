@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aqua;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    background: lightgoldenrodyellow;
+    text-decoration: none;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    text-align: left;
+    border-radius: 5px 5px 5px 5px;
+    color: maroon;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgb(222, 242, 248);
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.contact-item {
+    text-align: left;
+}
+
+
+
+
+
+.hero h1 {
+    margin: 0;
+}
+
+.hero button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.faq {
+    padding: 20px;
+}
+
+.faq ul {
+    list-style: none;
+    padding: 0;
+}
+
+.faq li {
+    margin: 10px 0;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .app-download button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+.app-download a{
+    background:white;
+    color:black;
+    margin: 5px 5px 5px 5px;
+    padding:  5px 5px 5px 5px;
+    cursor: pointer;
+    transition: all 2s;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem white;
+    text-decoration: none;
+
+
+}
+.app-download h3{
+    color:white;
+}
+.footer-bottom{
+    color:white;
+    text-decoration: none;
+}
+.social-icons a{
+    background:white;
+    color: black;
+    margin: 5px 5px 5px 5px;
+    padding:  5px 5px 5px 5px;
+    cursor: pointer;
+    transition: all 2s;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem  white;
+    text-decoration: none;
+}   
+
+body {
+    font-family: Arial, sans-serif;
+}
+.faq-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.faq-column {
+    width: 45%;
+}
+.faq-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+.faq-column li {
+    margin-bottom: 10px;
+}
